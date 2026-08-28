@@ -20,7 +20,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests'
-                sh 'test -f app.sh'
+                sh 'test -f wrongfile.sh'
             }
         }
 
